@@ -1,0 +1,16 @@
+name: 'Node'
+
+on:
+
+  push:
+
+
+Jobs:
+
+  run:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Hello world!'
+        run: echo "Hello world!"
